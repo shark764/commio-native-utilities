@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "description": "Library written in JS that contains all useful functions and setups",
   "author": "Daniel Hernandez <fhernandez@2600hz.com> (https://github.com/shark764)",
-  "main": "lib/commonjs/index.js",
-  "module": "lib/module/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "source": "src/index",
-  "types": "lib/typescript/index.d.ts",
   "files": [
     "src",
     "lib",
