@@ -1,5 +1,5 @@
 // lint-staged.config.js
-module.exports = {
-  './**/*.{js,jsx,ts,tsx}': ['yarn run prettify'],
-  'src/**/*.{js,jsx,ts,tsx}': [() => 'tsc --noEmit'],
-};
+
+const lintStaged = require('./src/commit-config/lint-staged');
+
+module.exports = lintStaged;

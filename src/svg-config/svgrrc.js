@@ -1,6 +1,5 @@
 module.exports = {
   // icon: true,
-  native: true,
   typescript: true,
   replaceAttrValues: {
     '#000': '{props.fill}',
@@ -27,6 +26,4 @@ module.exports = {
       { removeXMLNS: true },
     ],
   },
-  // We only need template for SvgTelicon component
-  // template: require('./templates/svgr-template'),
 };
