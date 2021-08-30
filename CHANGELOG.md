@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/2600hz/js-utilities/compare/v0.1.1...v0.2.0) (2021-08-30)
+
+
+### Features
+
+* Adding eslint & prettier shareable configuration files ([c351609](https://github.com/2600hz/js-utilities/commit/c3516094ed36afd5302012bd28f3d70ab501ad9b))
+
 ## [0.1.1](https://github.com/2600hz/js-utilities/compare/v0.1.0...v0.1.1) (2021-08-30)
 
 
