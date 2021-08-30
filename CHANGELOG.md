@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/2600hz/js-utilities/compare/v0.1.0...v0.1.1) (2021-08-30)
+
+
+### Bug Fixes
+
+* Main and Types not pointing to files correctly ([455aa4e](https://github.com/2600hz/js-utilities/commit/455aa4e091934840203095e06a2242a48fdf93ac))
+
 # 0.1.0 (2021-08-30)
 
 
