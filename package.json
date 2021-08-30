@@ -15,6 +15,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "prepublish": "yarn build",
     "pre-commit": "lint-staged",
     "prepare": "husky install",
     "typescript": "tsc --noEmit",
