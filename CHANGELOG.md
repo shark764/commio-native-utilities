@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/2600hz/js-utilities/compare/v0.2.1...v0.3.0) (2021-08-30)
+
+
+### Features
+
+* Adding shareable commitlint, lint-staged, typescript configuration ([59202de](https://github.com/2600hz/js-utilities/commit/59202deded697c00e0393fe1794c362eae121f0d))
+
 ## [0.2.1](https://github.com/2600hz/js-utilities/compare/v0.2.0...v0.2.1) (2021-08-30)
 
 # [0.2.0](https://github.com/2600hz/js-utilities/compare/v0.1.1...v0.2.0) (2021-08-30)
