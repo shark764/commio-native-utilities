@@ -24,7 +24,7 @@
     "lint-staged.config.js",
     "webpack.config.js"
   ],
-  "include": ["**/*.js", "**/*.ts", "./*", "./**/*", "./src"],
+  "include": ["**/*.js", "**/*.ts", "./*", "./**/*", "./src", "src/**/*.json"],
   "filesGlob": [
     "typings/index.d.ts",
     "src/**/*.ts",

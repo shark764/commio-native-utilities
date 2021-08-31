@@ -16,7 +16,6 @@
   "scripts": {
     "clean": "rimraf lib",
     "build": "yarn clean && tsc",
-    "prepublishOnly": "yarn full-check && yarn build",
     "pre-commit": "lint-staged",
     "prepare": "husky install",
     "typescript": "tsc --noEmit",
@@ -26,8 +25,6 @@
     "prettify": "yarn run format && yarn run lint:fix",
     "full-check": "yarn run prettify && yarn run typescript",
     "release": "release-it",
-    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}.",
-    "svg:jsx": "svgr --template ./templates/svgr-template.js src/assets/telicon-3.0.0.svg > src/components/telicon/SvgTelicon.tsx",
     "test": "jest --watchAll"
   },
   "devDependencies": {
