@@ -1,0 +1,3 @@
+{
+  "extends": "./src/ts-config/tsconfig.base"
+}
