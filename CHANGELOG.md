@@ -1,3 +1,10 @@
+## [0.3.3](https://github.com/2600hz/js-utilities/compare/v0.3.2...v0.3.3) (2021-08-31)
+
+
+### Bug Fixes
+
+* Including tsconfig.base.json file ([7b2dee5](https://github.com/2600hz/js-utilities/commit/7b2dee5a7dfdd060d2a8915687a1111cf491d264))
+
 ## [0.3.2](https://github.com/2600hz/js-utilities/compare/v0.3.1...v0.3.2) (2021-08-31)
 
 
