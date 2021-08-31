@@ -1,3 +1,10 @@
+## [0.3.4](https://github.com/2600hz/js-utilities/compare/v0.3.3...v0.3.4) (2021-08-31)
+
+
+### Bug Fixes
+
+* Moving tsconfig.base to root folder ([17112a4](https://github.com/2600hz/js-utilities/commit/17112a47121a401963ee69f25f4c02be90deca66))
+
 ## [0.3.3](https://github.com/2600hz/js-utilities/compare/v0.3.2...v0.3.3) (2021-08-31)
 
 
