@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/2600hz/js-utilities/compare/v0.3.6...v0.4.0) (2021-08-31)
+
+
+### Features
+
+* Adding tolower case test ([be8d75d](https://github.com/2600hz/js-utilities/commit/be8d75d67ce92732edf24caf8cc47a6f514b0f7c))
+
 ## [0.3.6](https://github.com/2600hz/js-utilities/compare/v0.3.5...v0.3.6) (2021-08-31)
 
 
