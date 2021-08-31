@@ -1,3 +1,10 @@
+## [0.3.5](https://github.com/2600hz/js-utilities/compare/v0.3.4...v0.3.5) (2021-08-31)
+
+
+### Bug Fixes
+
+* Exporting jest config; moving utilities to its own folder ([b6c4169](https://github.com/2600hz/js-utilities/commit/b6c416930f898ead177a0030514043307534e99b))
+
 ## [0.3.4](https://github.com/2600hz/js-utilities/compare/v0.3.3...v0.3.4) (2021-08-31)
 
 
