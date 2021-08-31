@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/2600hz/js-utilities/compare/v0.3.1...v0.3.2) (2021-08-31)
+
+
+### Bug Fixes
+
+* Renaming release-it config file to .js extension. Exporting shareable jest config file ([08ceed1](https://github.com/2600hz/js-utilities/commit/08ceed19e36ac9e55f50c1006134df3f09aa9a32))
+
 ## [0.3.1](https://github.com/2600hz/js-utilities/compare/v0.3.0...v0.3.1) (2021-08-31)
 
 
