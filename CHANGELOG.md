@@ -1,3 +1,10 @@
+## [0.3.6](https://github.com/2600hz/js-utilities/compare/v0.3.5...v0.3.6) (2021-08-31)
+
+
+### Bug Fixes
+
+* Bad configuration in release-it file ([271f0d1](https://github.com/2600hz/js-utilities/commit/271f0d19f8c0b7307f2c07af6a40935a6181c6c2))
+
 ## [0.3.5](https://github.com/2600hz/js-utilities/compare/v0.3.4...v0.3.5) (2021-08-31)
 
 
