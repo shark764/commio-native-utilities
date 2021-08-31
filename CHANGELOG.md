@@ -1,3 +1,10 @@
+## [0.3.1](https://github.com/2600hz/js-utilities/compare/v0.3.0...v0.3.1) (2021-08-31)
+
+
+### Bug Fixes
+
+* Json files not being exported on builds ([addb011](https://github.com/2600hz/js-utilities/commit/addb011def3320792eaadb89fca2774d110c3016))
+
 # [0.3.0](https://github.com/2600hz/js-utilities/compare/v0.2.1...v0.3.0) (2021-08-30)
 
 
