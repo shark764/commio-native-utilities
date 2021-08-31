@@ -7,8 +7,12 @@
   "types": "lib/index.d.ts",
   "source": "src/index",
   "files": [
+    "bin",
+    "build",
+    "tools",
     "src",
     "lib",
+    "tsconfig.base.json",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__"

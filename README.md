@@ -1,30 +1,74 @@
 # 2600Hz - Commio
-## _SDS React Native Components Library_
+## _JS Utilities Library_
 
-Library that contains all sharable components for all react native applications development
+Library that contains all sharable utilities and configuration files, written in Javascript
 
 ## Installation
 
 ```sh
-yarn add @2600hz/sds-react-native-components
+yarn add @dfhernandez/js-utilities
 ```
 
 ## Usage
 
 ```js
-import { Button, Telicon } from "@2600hz/sds-react-native-components";
+import { capitalize, humanize } from '@dfhernandez/js-utilities';
 
 // ...
 
-<Button onPress={handleCall} title="Call" color="#aaffcc" />
-<View>
-  <Telicon
-    name="volume-x"
-    size="xsmall"
-    fill="green"
-    fillSecondary="pink"
-  />
-</View>
+<Text>{capitalize(headerText)}</Text>
+<Button title={humanize(buttonName)} onPress={}.... />
+```
+
+You can also import or require directly from folder
+
+```js
+const {
+  prettierBaseConfig,
+} = require('@dfhernandez/js-utilities/lib/prettier-config');
+
+prettierBaseConfig.jsxBracketSameLine = false;
+
+module.exports = prettierBaseConfig;
+```
+
+**Configuration files**
+You can extend any of the following configs:
+- eslint (_.eslintrc.js_)
+- prettier (_..prettierrc.js_)
+- release-it (_.release-it.js_)
+- commitlint (_commitlint.config.js_)
+- svgrrc (_.svgrrc.js_)
+- jest (_jest.config.js_)
+- lint-staged (_lint-staged.config.js_)
+- tsconfig (_tsconfig.json_)
+
+All configuration files are imported and used same way, there are just two files that need different treatment
+
+*eslint*
+Eslint file exports a function that receives the root folder
+
+```js
+const {
+  eslintBaseConfig,
+} = require('@dfhernandez/js-utilities/lib/eslint-config');
+
+module.exports = eslintBaseConfig(__dirname);
+```
+
+*tsconfig*
+This file must extends from any of the ts config files available
+```json
+{
+  "extends": "@dfhernandez/js-utilities/tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": "./",
+    ...
+  },
+  "exclude": [...],
+  "include": [...],
+}
+  
 ```
 
 ## Development
@@ -62,29 +106,13 @@ yarn watch
 **Consume the package**
 `Both projects must be placed on same folder, otherwise won't work`
 ```bash
-yarn link @2600hz/sds-react-native-components
+yarn link @dfhernandez/js-utilities
 ```
 
 Build the package
-_Automatically will run `bob build`_
+_Automatically will build the project_
 ```bash
-yarn
-```
-
-**Run project**
-```bash
-yarn start
-```
-
-Run android
-```bash
-yarn android
-```
-
-Run ios
-```bash
-cd ios & pod install
-yarn ios
+yarn build
 ```
 
 ## Utilities
@@ -118,15 +146,9 @@ yarn run full-check
 ## Tech
 Components library uses a number of open source projects to work properly:
 
-- [React.js](https://reactjs.org/) - JavaScript library for building user interfaces.
-- [React Native](https://reactnative.dev/) - JavaScript library for creating native apps for Android and IOS using React.
 - [Typescript](https://www.typescriptlang.org/docs/handbook/react.html) - Strongly typed programming language which builds on JavaScript
 - [NodeJs](https://nodejs.org/es/) - Allows execute javascript scripts on the terminal
-- [Storybook](https://storybook.js.org/) - Development environment for UI components
 - [Luxon](https://moment.github.io/luxon/) - library for dealing with dates and times in JavaScript (better alternative than Moment.js)
-- [Styled-Components](https://styled-components.com/) - Library to style react components
-- [react-native-svg](https://www.npmjs.com/package/react-native-svg) - Provides SVG support to React Native on iOS and Android, and a compatibility layer for the web
-- [create-react-native-library](https://www.npmjs.com/package/create-react-native-library) - CLI to scaffold React Native libraries
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

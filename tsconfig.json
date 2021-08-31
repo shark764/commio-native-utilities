@@ -1,5 +1,5 @@
 {
-  "extends": "./src/ts-config/tsconfig.base",
+  "extends": "./src/tsconfig.base",
   "compilerOptions": {
     "baseUrl": "./",
     "declaration": true,

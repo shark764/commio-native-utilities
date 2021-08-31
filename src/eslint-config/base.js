@@ -148,6 +148,7 @@ module.exports = function getBaseConfig (dirname) {
       'no-plusplus': 'warn',
       'no-self-compare': 'error',
       'no-shadow': 'off',
+      'no-template-curly-in-string': 'warn',
       'no-underscore-dangle': 'warn',
       'no-unused-vars': 'warn',
       'no-use-before-define': 'off',

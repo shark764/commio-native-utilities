@@ -14,38 +14,6 @@ yarn
 
 While developing, you can run the [userportal app](https://github.com/shark764/react-native-commio-userportal) to test your changes. Any changes you make in your library's JavaScript code will be reflected in the example app without a rebuild. If you change any native code, then you'll need to rebuild the example app.
 
-To start the packager:
-
-```sh
-yarn expo:start
-```
-
-To run the example app on Android:
-
-```sh
-yarn start:android
-```
-or
-```sh
-yarn expo:android
-```
-
-To run the example app on iOS:
-
-```sh
-yarn start:ios
-```
-or
-```sh
-yarn expo:ios
-```
-
-To run the example app on Web:
-
-```sh
-yarn web
-```
-
 Format your code with prettier
 
 ```sh
@@ -78,6 +46,11 @@ Remember to add tests for your change if possible. Run the unit tests by:
 
 ```sh
 yarn test
+```
+
+To build the package
+```sh
+yarn build
 ```
 
 ### Commit message convention

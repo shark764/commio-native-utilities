@@ -1,5 +1,3 @@
-module.exports = {
-  preset: 'react-native',
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-  modulePathIgnorePatterns: ['<rootDir>/lib/'],
-};
+const jestConfig = require('./src/jest-config/jest');
+
+module.exports = jestConfig;
