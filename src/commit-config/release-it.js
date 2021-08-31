@@ -3,9 +3,9 @@ module.exports = {
     'before:init': ['yarn full-check'],
     'after:bump': 'yarn build',
     'after:git:release':
-      'Successfully git pushed to ${repo.repository}, attempting to create release tag',
+      'echo Successfully git pushed to ${repo.repository}, attempting to create release tag',
     'after:release':
-      'Successfully released ${name} v${version} to ${repo.repository}.',
+      'echo Successfully released ${name} v${version} to ${repo.repository}.',
   },
   git: {
     commitMessage: 'chore: release ${version}',
