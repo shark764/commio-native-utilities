@@ -1,3 +1,10 @@
+## [0.4.1](https://github.com/2600hz/js-utilities/compare/v0.4.0...v0.4.1) (2021-09-01)
+
+
+### Bug Fixes
+
+* Removing tolower test ([721a9e7](https://github.com/2600hz/js-utilities/commit/721a9e753e6b062d631b39ef21fc8aa2b90f8bc4))
+
 # [0.4.0](https://github.com/2600hz/js-utilities/compare/v0.3.6...v0.4.0) (2021-08-31)
 
 
