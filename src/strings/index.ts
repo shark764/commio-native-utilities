@@ -5,5 +5,3 @@ export const humanize = (s: string): string =>
   s
     .replace(/([A-Z])/g, ' $1')
     .replace(/^./, (str: string) => str.toUpperCase());
-
-export const toLower = (s: string): string => s.toLowerCase();
