@@ -6,7 +6,7 @@
     "noEmit": false,
     "outDir": "lib",
     "paths": {
-      "@dfhernandez/js-utilities": ["./src/index"]
+      "@2600hz/js-utilities": ["./src/index"]
     }
   },
   "exclude": [
