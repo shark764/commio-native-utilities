@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/2600hz/js-utilities/compare/v0.4.2...v0.5.0) (2021-09-06)
+
+
+### Features
+
+* Moving library from 'dfhernandez' to '2600hz' organization ([2efa481](https://github.com/2600hz/js-utilities/commit/2efa48123a05bdb8ed7e989573415d7a6371c84d))
+
 ## [0.4.2](https://github.com/2600hz/js-utilities/compare/v0.4.1...v0.4.2) (2021-09-01)
 
 ## [0.4.1](https://github.com/2600hz/js-utilities/compare/v0.4.0...v0.4.1) (2021-09-01)
