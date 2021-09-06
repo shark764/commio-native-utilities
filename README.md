@@ -6,13 +6,13 @@ Library that contains all sharable utilities and configuration files, written in
 ## Installation
 
 ```sh
-yarn add @2600hz/js-utilities
+yarn add @dfhernandez/js-utilities
 ```
 
 ## Usage
 
 ```js
-import { capitalize, humanize } from '@2600hz/js-utilities';
+import { capitalize, humanize } from '@dfhernandez/js-utilities';
 
 // ...
 
@@ -25,7 +25,7 @@ You can also import or require directly from folder
 ```js
 const {
   prettierBaseConfig,
-} = require('@2600hz/js-utilities/lib/prettier-config');
+} = require('@dfhernandez/js-utilities/lib/prettier-config');
 
 prettierBaseConfig.jsxBracketSameLine = false;
 
@@ -51,7 +51,7 @@ Eslint file exports a function that receives the root folder
 ```js
 const {
   eslintBaseConfig,
-} = require('@2600hz/js-utilities/lib/eslint-config');
+} = require('@dfhernandez/js-utilities/lib/eslint-config');
 
 module.exports = eslintBaseConfig(__dirname);
 ```
@@ -60,7 +60,7 @@ module.exports = eslintBaseConfig(__dirname);
 This file must extends from any of the ts config files available
 ```json
 {
-  "extends": "@2600hz/js-utilities/tsconfig.base",
+  "extends": "@dfhernandez/js-utilities/tsconfig.base",
   "compilerOptions": {
     "baseUrl": "./",
     ...
@@ -106,7 +106,7 @@ yarn watch
 **Consume the package**
 `Both projects must be placed on same folder, otherwise won't work`
 ```bash
-yarn link @2600hz/js-utilities
+yarn link @dfhernandez/js-utilities
 ```
 
 Build the package
