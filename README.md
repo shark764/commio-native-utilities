@@ -12,7 +12,7 @@
   </p>
   <p>
 
-[![NPM version](https://img.shields.io/npm/v/@2600hz/sds-react-native-components?style=flat-square)](https://img.shields.io/npm/v/@2600hz/sds-react-native-components?style=flat-square)
+[![NPM version](https://img.shields.io/npm/v/@2600hz/commio-native-utilities?style=flat-square)](https://img.shields.io/npm/v/@2600hz/commio-native-utilities?style=flat-square)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
   </p>
