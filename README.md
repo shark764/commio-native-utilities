@@ -1,7 +1,27 @@
+<div align="center">
+  <a href="#">
+  	<img src="https://media.giphy.com/media/GHeV8BGjJAAWk/giphy.gif" alt="React Native Components" height="160" />
+  </a>
+  <br>
+  <br>
+  <p>
+    <b>@2600hz/commio-native-utilities</b>
+  </p>
+  <p>
+     <i>Library that contains all sharable utilities and configuration files, written in Javascript.</i>
+  </p>
+  <p>
+
+[![NPM version](https://img.shields.io/npm/v/@2600hz/sds-react-native-components?style=flat-square)](https://img.shields.io/npm/v/@2600hz/sds-react-native-components?style=flat-square)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
+  </p>
+</div>
+
+---
+
 # 2600Hz - Commio
 ## _JS Utilities Library_
-
-Library that contains all sharable utilities and configuration files, written in Javascript
 
 ## Installation
 
@@ -87,6 +107,7 @@ Use the package manager [yarn](https://yarnpkg.com/getting-started/install) v1+ 
 
 ```bash
 yarn install
+# Or just
 yarn
 ```
 
