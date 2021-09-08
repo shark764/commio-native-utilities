@@ -1,3 +1,10 @@
+## [0.5.1](https://github.com/2600hz/commio-native-utilities/compare/v0.0.1...v0.5.1) (2021-09-08)
+
+
+### Bug Fixes
+
+* Changing version and updating readme ([4429c1b](https://github.com/2600hz/commio-native-utilities/commit/4429c1be845cab0421baf457ec16f7f3730df8d1))
+
 ## [0.0.1](https://github.com/2600hz/commio-native-utilities/compare/v0.5.0...v0.0.1) (2021-09-08)
 
 # [0.5.0](https://github.com/2600hz/js-utilities/compare/v0.4.2...v0.5.0) (2021-09-06)

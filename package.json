@@ -1,6 +1,6 @@
 {
   "name": "@2600hz/commio-native-utilities",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Library written in JS that contains all useful functions and setups",
   "author": "Daniel Hernandez <fhernandez@2600hz.com> (https://github.com/shark764)",
   "main": "lib/index.js",
