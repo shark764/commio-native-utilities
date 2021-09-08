@@ -6,7 +6,7 @@
     "noEmit": false,
     "outDir": "lib",
     "paths": {
-      "@dfhernandez/js-utilities": ["./src/index"]
+      "@2600hz/commio-native-utilities": ["./src/index"]
     }
   },
   "exclude": [

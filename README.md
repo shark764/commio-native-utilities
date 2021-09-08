@@ -6,13 +6,13 @@ Library that contains all sharable utilities and configuration files, written in
 ## Installation
 
 ```sh
-yarn add @dfhernandez/js-utilities
+yarn add @2600hz/commio-native-utilities
 ```
 
 ## Usage
 
 ```js
-import { capitalize, humanize } from '@dfhernandez/js-utilities';
+import { capitalize, humanize } from '@2600hz/commio-native-utilities';
 
 // ...
 
@@ -25,7 +25,7 @@ You can also import or require directly from folder
 ```js
 const {
   prettierBaseConfig,
-} = require('@dfhernandez/js-utilities/lib/prettier-config');
+} = require('@2600hz/commio-native-utilities/lib/prettier-config');
 
 prettierBaseConfig.jsxBracketSameLine = false;
 
@@ -51,7 +51,7 @@ Eslint file exports a function that receives the root folder
 ```js
 const {
   eslintBaseConfig,
-} = require('@dfhernandez/js-utilities/lib/eslint-config');
+} = require('@2600hz/commio-native-utilities/lib/eslint-config');
 
 module.exports = eslintBaseConfig(__dirname);
 ```
@@ -60,7 +60,7 @@ module.exports = eslintBaseConfig(__dirname);
 This file must extends from any of the ts config files available
 ```json
 {
-  "extends": "@dfhernandez/js-utilities/tsconfig.base",
+  "extends": "@2600hz/commio-native-utilities/tsconfig.base",
   "compilerOptions": {
     "baseUrl": "./",
     ...
@@ -106,7 +106,7 @@ yarn watch
 **Consume the package**
 `Both projects must be placed on same folder, otherwise won't work`
 ```bash
-yarn link @dfhernandez/js-utilities
+yarn link @2600hz/commio-native-utilities
 ```
 
 Build the package
