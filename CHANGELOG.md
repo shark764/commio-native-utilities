@@ -1,3 +1,5 @@
+## [0.0.1](https://github.com/2600hz/commio-native-utilities/compare/v0.5.0...v0.0.1) (2021-09-08)
+
 # [0.5.0](https://github.com/2600hz/js-utilities/compare/v0.4.2...v0.5.0) (2021-09-06)
 
 
