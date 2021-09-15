@@ -31,6 +31,35 @@ module.exports = function getNativeConfig (dirname) {
   ];
   baseConfig.rules = {
     ...baseConfig.rules,
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', ['parent', 'sibling']],
+        pathGroups: [
+          {
+            pattern: 'react+(|-native)',
+            group: 'external',
+            position: 'before',
+          },
+          {
+            pattern: '@/**',
+            group: 'parent',
+            position: 'before',
+          },
+          {
+            pattern: '@**/**',
+            group: 'parent',
+            position: 'before',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['react'],
+        'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
     'jsx-a11y/click-events-have-key-events': 'warn',
     'jsx-a11y/label-has-associated-control': 'warn',
     'jsx-quotes': ['error', 'prefer-double'],

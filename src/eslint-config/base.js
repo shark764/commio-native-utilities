@@ -109,6 +109,7 @@ module.exports = function getBaseConfig (dirname) {
       'import/order': [
         'error',
         {
+          groups: ['builtin', 'external', 'internal', ['parent', 'sibling']],
           pathGroups: [
             {
               pattern: '@/**',
@@ -116,11 +117,16 @@ module.exports = function getBaseConfig (dirname) {
               position: 'before',
             },
             {
-              pattern: '@sds-*/**',
+              pattern: '@**/**',
               group: 'parent',
               position: 'before',
             },
           ],
+          'newlines-between': 'always',
+          alphabetize: {
+            order: 'asc',
+            caseInsensitive: true,
+          },
         },
       ],
       'import/prefer-default-export': 'off',

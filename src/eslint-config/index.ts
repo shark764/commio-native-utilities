@@ -1,5 +1,5 @@
 import eslintBaseConfig = require('./base');
-import eslintWebConfig = require('./web');
 import eslintNativeConfig = require('./native');
+import eslintWebConfig = require('./web');
 
 export { eslintBaseConfig, eslintWebConfig, eslintNativeConfig };

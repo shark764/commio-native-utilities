@@ -21,6 +21,35 @@ module.exports = function getWebConfig (dirname) {
   baseConfig.plugins = [...baseConfig.plugins, 'react', 'react-hooks'];
   baseConfig.rules = {
     ...baseConfig.rules,
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', ['parent', 'sibling']],
+        pathGroups: [
+          {
+            pattern: 'react',
+            group: 'external',
+            position: 'before',
+          },
+          {
+            pattern: '@/**',
+            group: 'parent',
+            position: 'before',
+          },
+          {
+            pattern: '@**/**',
+            group: 'parent',
+            position: 'before',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['react'],
+        'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
     'jsx-a11y/click-events-have-key-events': 'warn',
     'jsx-a11y/label-has-associated-control': 'warn',
     'jsx-quotes': ['error', 'prefer-double'],

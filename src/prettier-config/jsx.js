@@ -4,4 +4,5 @@ const base = require('./base');
 module.exports = {
   ...base,
   jsxBracketSameLine: true,
+  bracketSameLine: true,
 };
