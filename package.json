@@ -1,5 +1,5 @@
 {
-  "name": "@2600hz/commio-native-utilities",
+  "name": "@2600hz/commland-utilities",
   "version": "0.5.2",
   "description": "Library written in JS that contains all useful functions and setups",
   "author": "Daniel Hernandez <fhernandez@2600hz.com> (https://github.com/shark764)",
@@ -65,12 +65,12 @@
     "utilities"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/2600hz/commio-native-utilities#readme",
+  "homepage": "https://github.com/2600hz/commland-utilities#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2600hz/commio-native-utilities.git"
+    "url": "git+https://github.com/2600hz/commland-utilities.git"
   },
   "bugs": {
-    "url": "https://github.com/2600hz/commio-native-utilities/issues"
+    "url": "https://github.com/2600hz/commland-utilities/issues"
   }
 }

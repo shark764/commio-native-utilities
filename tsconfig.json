@@ -6,7 +6,7 @@
     "noEmit": false,
     "outDir": "lib",
     "paths": {
-      "@2600hz/commio-native-utilities": ["./src/index"]
+      "@2600hz/commland-utilities": ["./src/index"]
     }
   },
   "exclude": [

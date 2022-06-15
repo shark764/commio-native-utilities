@@ -5,14 +5,14 @@
   <br>
   <br>
   <p>
-    <b>@2600hz/commio-native-utilities</b>
+    <b>@2600hz/commland-utilities</b>
   </p>
   <p>
      <i>Library that contains all sharable utilities and configuration files, written in Javascript.</i>
   </p>
   <p>
 
-[![NPM version](https://img.shields.io/npm/v/@2600hz/commio-native-utilities?style=flat-square)](https://img.shields.io/npm/v/@2600hz/commio-native-utilities?style=flat-square)
+[![NPM version](https://img.shields.io/npm/v/@2600hz/commland-utilities?style=flat-square)](https://img.shields.io/npm/v/@2600hz/commland-utilities?style=flat-square)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
   </p>
@@ -26,13 +26,13 @@
 ## Installation
 
 ```sh
-yarn add @2600hz/commio-native-utilities
+yarn add @2600hz/commland-utilities
 ```
 
 ## Usage
 
 ```js
-import { capitalize, humanize } from '@2600hz/commio-native-utilities';
+import { capitalize, humanize } from '@2600hz/commland-utilities';
 
 // ...
 
@@ -45,7 +45,7 @@ You can also import or require directly from folder
 ```js
 const {
   prettierBaseConfig,
-} = require('@2600hz/commio-native-utilities/lib/prettier-config');
+} = require('@2600hz/commland-utilities/lib/prettier-config');
 
 prettierBaseConfig.jsxBracketSameLine = false;
 
@@ -71,7 +71,7 @@ Eslint file exports a function that receives the root folder
 ```js
 const {
   eslintBaseConfig,
-} = require('@2600hz/commio-native-utilities/lib/eslint-config');
+} = require('@2600hz/commland-utilities/lib/eslint-config');
 
 module.exports = eslintBaseConfig(__dirname);
 ```
@@ -80,7 +80,7 @@ module.exports = eslintBaseConfig(__dirname);
 This file must extends from any of the ts config files available
 ```json
 {
-  "extends": "@2600hz/commio-native-utilities/tsconfig.base",
+  "extends": "@2600hz/commland-utilities/tsconfig.base",
   "compilerOptions": {
     "baseUrl": "./",
     ...
@@ -127,7 +127,7 @@ yarn watch
 **Consume the package**
 `Both projects must be placed on same folder, otherwise won't work`
 ```bash
-yarn link @2600hz/commio-native-utilities
+yarn link @2600hz/commland-utilities
 ```
 
 Build the package

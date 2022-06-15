@@ -1,19 +1,19 @@
-## [0.5.2](https://github.com/2600hz/commio-native-utilities/compare/v0.5.1...v0.5.2) (2021-09-15)
+## [0.5.2](https://github.com/2600hz/commland-utilities/compare/v0.5.1...v0.5.2) (2021-09-15)
 
 
 ### Bug Fixes
 
-* Changing bad reference of package in readme ([94ac4a8](https://github.com/2600hz/commio-native-utilities/commit/94ac4a81d8afffe2e5a219b453b410f176e2d4ad))
-* Replacing deprecated jsxBracketSameLine for prettier; Rewriting eslint conf for import/order ([c06aebe](https://github.com/2600hz/commio-native-utilities/commit/c06aebe62c3c40849c7d878aca8424256bcf2a23))
+* Changing bad reference of package in readme ([94ac4a8](https://github.com/2600hz/commland-utilities/commit/94ac4a81d8afffe2e5a219b453b410f176e2d4ad))
+* Replacing deprecated jsxBracketSameLine for prettier; Rewriting eslint conf for import/order ([c06aebe](https://github.com/2600hz/commland-utilities/commit/c06aebe62c3c40849c7d878aca8424256bcf2a23))
 
-## [0.5.1](https://github.com/2600hz/commio-native-utilities/compare/v0.0.1...v0.5.1) (2021-09-08)
+## [0.5.1](https://github.com/2600hz/commland-utilities/compare/v0.0.1...v0.5.1) (2021-09-08)
 
 
 ### Bug Fixes
 
-* Changing version and updating readme ([4429c1b](https://github.com/2600hz/commio-native-utilities/commit/4429c1be845cab0421baf457ec16f7f3730df8d1))
+* Changing version and updating readme ([4429c1b](https://github.com/2600hz/commland-utilities/commit/4429c1be845cab0421baf457ec16f7f3730df8d1))
 
-## [0.0.1](https://github.com/2600hz/commio-native-utilities/compare/v0.5.0...v0.0.1) (2021-09-08)
+## [0.0.1](https://github.com/2600hz/commland-utilities/compare/v0.5.0...v0.0.1) (2021-09-08)
 
 # [0.5.0](https://github.com/2600hz/js-utilities/compare/v0.4.2...v0.5.0) (2021-09-06)
 
