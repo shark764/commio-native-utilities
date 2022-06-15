@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/2600hz/commland-utilities/compare/v0.5.2...v0.6.0) (2022-06-15)
+
+
+### Features
+
+* Renaming package to commland-utilities ([bb36c79](https://github.com/2600hz/commland-utilities/commit/bb36c793a08a93341a592c6840a0f6af8363bb62))
+
 ## [0.5.2](https://github.com/2600hz/commland-utilities/compare/v0.5.1...v0.5.2) (2021-09-15)
 
 
