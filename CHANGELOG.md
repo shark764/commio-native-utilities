@@ -1,3 +1,10 @@
+## [0.6.2](https://github.com/2600hz/commland-utilities/compare/v0.6.1...v0.6.2) (2022-08-17)
+
+
+### Bug Fixes
+
+* Changing node version accepted to greater or equal than 12.x ([40a6b46](https://github.com/2600hz/commland-utilities/commit/40a6b46de08b3e9accaeed6f8f6629b077f7f0c7))
+
 ## [0.6.1](https://github.com/2600hz/commland-utilities/compare/v0.6.0...v0.6.1) (2022-08-17)
 
 # [0.6.0](https://github.com/2600hz/commland-utilities/compare/v0.5.2...v0.6.0) (2022-06-15)
