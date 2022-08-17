@@ -56,6 +56,12 @@ module.exports = function getWebConfig (dirname) {
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/display-name': 'off',
+    'react/function-component-definition': [
+      'warn',
+      {
+        namedComponents: 'arrow-function',
+      },
+    ],
     'react/jsx-curly-brace-presence': [
       'error',
       {
@@ -70,6 +76,7 @@ module.exports = function getWebConfig (dirname) {
       },
     ],
     'react/jsx-props-no-spreading': 'warn',
+    'react/jsx-uses-react': 'warn',
     'react/no-deprecated': 'warn',
     'react/prop-types': 'off',
     'react/require-default-props': 'warn',

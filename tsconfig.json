@@ -3,13 +3,18 @@
   "compilerOptions": {
     "baseUrl": "./",
     "declaration": true,
+    "esModuleInterop": false,
     "noEmit": false,
     "outDir": "lib",
     "paths": {
       "@2600hz/commland-utilities": ["./src/index"]
-    }
+    },
+    "types": ["node", "jest"]
   },
   "exclude": [
+    "**/*.test.*",
+    "**/__mocks__/*",
+    "**/__tests__/*",
     "__tests__/**/*-test.ts",
     "tests",
     "dist",
@@ -20,7 +25,7 @@
     ".eslintrc.js",
     "babel.config.js",
     "commitlint.config.js",
-    "jest.config.js",
+    "jest.config.ts",
     "lint-staged.config.js",
     "webpack.config.js"
   ],

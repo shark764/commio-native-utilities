@@ -1,3 +1,6 @@
+export * from './strings';
+export * from './date';
+
 export const iconSizesMap: {
   [key: string]: number;
 } = {
