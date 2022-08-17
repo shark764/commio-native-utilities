@@ -1,3 +1,5 @@
+## [0.6.1](https://github.com/2600hz/commland-utilities/compare/v0.6.0...v0.6.1) (2022-08-17)
+
 # [0.6.0](https://github.com/2600hz/commland-utilities/compare/v0.5.2...v0.6.0) (2022-06-15)
 
 
