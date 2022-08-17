@@ -10,7 +10,6 @@
     "bin",
     "build",
     "tools",
-    "src",
     "lib",
     "tsconfig.base.json",
     "!**/__tests__",
