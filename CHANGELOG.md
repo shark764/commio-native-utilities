@@ -1,3 +1,16 @@
+# [0.7.0](https://github.com/2600hz/commland-utilities/compare/v0.6.0...v0.7.0) (2022-08-17)
+
+
+### Bug Fixes
+
+* Changing node version accepted to greater or equal than 12.x ([26a9fa3](https://github.com/2600hz/commland-utilities/commit/26a9fa38c7c52b9647159a03fd730979fb96c5fe))
+* Removing 'src' folder from files array to avoid add it when library is installed as dependency ([116ced1](https://github.com/2600hz/commland-utilities/commit/116ced1f990a5c7c8062550c89fffaf7b502509e))
+
+
+### Features
+
+* [CS-61] Adding dateTime functions to common commland utilities ([#1](https://github.com/2600hz/commland-utilities/issues/1)) ([f570e7d](https://github.com/2600hz/commland-utilities/commit/f570e7d5a1d7ab0e1257fd07ef50e743d9a8def8))
+
 ## [0.6.2](https://github.com/2600hz/commland-utilities/compare/v0.6.1...v0.6.2) (2022-08-17)
 
 
